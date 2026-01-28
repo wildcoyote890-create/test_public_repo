@@ -1,3 +1,4 @@
 # test_public_repo
-first version
-second version
+- 1st version
+- 2nd version
+- 3rd version
