@@ -1,7 +1,7 @@
 name: hello_world_wf
 on:
-  schedule:
-    - cron: "30 * * * *" 
+  # schedule:
+  #   - cron: "30 * * * *" 
     
   workflow_dispatch:
 
