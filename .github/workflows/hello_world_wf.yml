@@ -1,0 +1,17 @@
+name: hello_world_wf
+on:
+  schedule:
+    - cron: "30 * * * *" 
+    
+  workflow_dispatch:
+
+jobs:
+  test:
+    timeout-minutes: 1
+    runs-on: ubuntu-latest
+    environment: test
+    steps:
+      - run: |
+          echo "Hello world!"
+          echo "Datetime is $(date)"
+          
